@@ -118,7 +118,7 @@ The above example will create a GameTimer with a *longInterval* of 120 seconds. 
 **shortTimerExpired:** method every 0.5 seconds.
 
 Always allocate GameTimer to the instance variable **ONCE** (such as in **viewDidLoad** method). If you need to
-change the settings, stop the timer and then do so using the instance variables i.e. 
+change the settings, stop the timer and then do so using the properties i.e. 
 
 ```
 [self.gameTimer stop];
