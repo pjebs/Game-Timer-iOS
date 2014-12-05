@@ -37,6 +37,7 @@
 - (void)dealloc
 {
     //Since self.gameTimer is a 'strong' property we need to set it to nil to release memory.
+    [self.gameTimer stop];
     self.gameTimer = nil;
 }
 
