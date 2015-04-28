@@ -32,7 +32,7 @@ Installation
 
 ### CocoaPods
 
-pod 'SliceButton', '~> 1.0'
+pod 'Game-Timer-iOS', '~> 1.0'
 
 ### Standard
 
