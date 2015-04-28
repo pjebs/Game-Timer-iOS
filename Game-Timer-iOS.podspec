@@ -24,8 +24,8 @@ Pod::Spec.new do |s|
   s.author       = { "PJ Engineering and Business Solutions Pty. Ltd." => "enquiries@pjebs.com.au" }
 
   s.platform     = :ios, "6.0"
-  s.source       = { :git => "https://github.com/pjebs/Game-Timer-iOS.git", :branch => "master" }
-  s.source_files  = "/*.{h,m}"
+  s.source       = { :git => "https://github.com/pjebs/Game-Timer-iOS.git", :tag => "v1.0.0" }
+  s.source_files  = "*.{h,m}"
   s.requires_arc = true
 
 end
