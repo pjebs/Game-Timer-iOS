@@ -30,6 +30,12 @@ The **stopTimer** method **must** be called from the same thread that called the
 Installation
 --------------
 
+### CocoaPods
+
+pod 'SliceButton', '~> 1.0'
+
+### Standard
+
 To install GameTimer into your app, drag the **GameTimer.h** and **GameTimer.m** files into your project.
 
 Add:
